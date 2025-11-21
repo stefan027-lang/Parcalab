@@ -93,11 +93,11 @@ fs.readdir(config.commandsDir, (err, files) => {
 
 if (config.TOKEN || process.env.TOKEN) {
   client.login(config.TOKEN || process.env.TOKEN).catch((e) => {
-    console.log('TOKEN ERROR❌❌');
+    console.log('MTQ0MTUzMDkxNzkwMTU3MDE0OA.G11DWf.5jqpkfU9dRtTqxSLjrTKG7kHfFwcvAliVeX_Wo');
   });
 } else {
   setTimeout(() => {
-    console.log('TOKEN ERROR❌❌');
+    console.log('MTQ0MTUzMDkxNzkwMTU3MDE0OA.G11DWf.5jqpkfU9dRtTqxSLjrTKG7kHfFwcvAliVeX_Wo');
   }, 2000);
 }
 
